@@ -35,8 +35,8 @@
                 <ul class="menu-list">
                     
                   <li><a href="<?php echo get_site_url( '/' ); ?>">Home</a></li>
-                  <li><a href="<?php echo site_url( '/wellness-coaching' ); ?>">Wellness Coaching</a></li>
-                  <li><a href="<?php echo site_url( '/public-speaking-engagements' ); ?>">Public Speaking Engagements</a></li>
+                  <li><a href="<?php echo site_url( '/services/wellness-coaching' ); ?>">Wellness Coaching</a></li>
+                  <li><a href="<?php echo site_url( '/services/public-speaking-engagements' ); ?>">Public Speaking Engagements</a></li>
                   <li><a href="<?php echo site_url( '/about-me' ); ?>">About Me</a></li>
                   <li><a href="<?php echo site_url( '/blog' ); ?>">Blog</a></li>
                   <li><a href="<?php echo site_url( '/contact-me' ); ?>">Contact Me</a></li>
