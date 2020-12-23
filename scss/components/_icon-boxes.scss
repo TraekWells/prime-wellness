@@ -1,0 +1,311 @@
+/*----------- Icon Boxes --------------*/
+
+.svg-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.icons-box [class*="col-"]:not(:last-child) {
+  margin-bottom: 0 !important;
+}
+
+.icons-box.style-1 {
+  margin-bottom: -30px;
+}
+
+.icons-box.style-1.flex-row {
+  margin: 0 -15px -45px;
+}
+
+.icons-box.style-1 > .icons-wrap {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.icons-box.style-1:not(.type-2) .icons-item .item-box p {
+  padding: 0 15px;
+}
+
+.icons-box.style-1 .icons-item .item-box > i {
+  margin-bottom: 26px;
+  font-size: 60px;
+  color: #b01933;
+  display: block;
+}
+
+.icons-box.style-1 .icons-item .item-box > i:not([class*="licon-"]) {
+  font-style: normal;
+  font-family: "Lora", sans-serif;
+  line-height: 40px;
+}
+
+.icons-item .item-box .icons-box-title:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.icons-item .item-box .icons-box-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.icons-box.style-2 .icons-wrap {
+  padding: 20px;
+  height: 335px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.icons-box.style-2 .icons-wrap:after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(163, 23, 47); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(163, 23, 47, 1) 0%,
+    rgba(239, 34, 69, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(163, 23, 47, 1) 0%,
+    rgba(239, 34, 69, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(163, 23, 47, 1) 0%,
+    rgba(239, 34, 69, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  opacity: 0;
+  visibility: hidden;
+
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.icons-box.style-2 .icons-wrap:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+
+.icons-box.style-2 .icons-item .item-box > i {
+  display: block;
+  margin-bottom: 40px;
+  transition: all 0.45s ease;
+  max-height: 70px;
+}
+
+.icons-box.style-2 .icons-wrap .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
+}
+
+.icons-box.style-2 .icons-wrap:hover .bg-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.icons-box.style-2 .icons-wrap .icons-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px;
+
+  transition: all 0.45s ease;
+}
+
+.icons-box.style-2 .icons-wrap .icons-item p {
+  color: #c9c9c9;
+}
+
+.icons-box.style-2:not(.type-2) .icons-item .icons-box-title {
+  position: relative;
+  padding-bottom: 7px;
+}
+
+.icons-box.style-2:not(.type-2) .icons-item h3.icons-box-title {
+  line-height: 39px;
+}
+
+.icons-box.style-2:not(.type-2) .icons-item .icons-box-title:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  height: 3px;
+  width: 50px;
+  background: #cac6c7;
+  left: 0;
+}
+
+.icons-box.style-2:not(.type-2) .icons-item .icons-box-title:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.icons-box.style-2 .icons-item .icons-box-title a {
+  color: #fff;
+  border-bottom: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.icons-box.style-2 .icons-item p:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.icons-box.style-2:not(.type-2) .icons-wrap .icons-item {
+  -webkit-transform: translateY(65px);
+  -ms-transform: translateY(65px);
+  -o-transform: translateY(65px);
+  transform: translateY(65px);
+}
+
+.icons-box.style-2:not(.type-2) .icons-wrap:hover .icons-item {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.icons-box.style-2:not(.type-2) .icons-wrap .icons-item .btn {
+  opacity: 0;
+  visibility: hidden;
+  color: #fff;
+}
+
+.icons-box.style-2:not(.type-2) .icons-wrap .icons-item .btn:hover {
+  border-color: #fff;
+}
+
+.icons-box.style-2 .icons-wrap:hover .icons-item .btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+.info-box .box-img:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.info-box .box-img img {
+  width: 100%;
+}
+
+.info-boxes .info-box .box-title {
+  line-height: 42px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.info-boxes .info-box .box-title a:hover {
+  color: #b01933;
+}
+
+.info-boxes.style-2 .info-box {
+  padding-bottom: 26px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: -1px;
+}
+
+.info-boxes.style-2 .info-box p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.info-boxes.style-2 .info-box .box-img:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+.info-boxes.style-2 .info-box .box-img img {
+  width: 100%;
+}
+
+.info-boxes.style-2 .info-box .box-title {
+  line-height: 26px;
+}
+
+.info-boxes.style-2 .info-box .box-title:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.info-boxes.style-2 .info-box .box-age {
+  font-size: 15px;
+  color: #999;
+  line-height: 22px;
+}
+
+.info-boxes.style-2 .info-box .box-age:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.info-boxes.style-2.flex-row[class*="item-col-"]:not(.no-gutters) {
+  margin: -56px -15px 0;
+  overflow: hidden;
+}
+
+.info-boxes.style-2.flex-row[class*="item-col-"]:not(.no-gutters) > * {
+  padding: 56px 15px 0;
+}
+
+.info-boxes.flex-row[class*="item-col-"]:not(.no-gutters) {
+  margin-top: -39px;
+}
+
+.info-boxes.flex-row[class*="item-col-"]:not(.no-gutters) > * {
+  padding-top: 39px;
+}
+
+.icons-box.style-2.type-2 .icons-wrap {
+  max-height: 420px;
+  text-align: center;
+}
+
+.icons-box.style-2.type-2 .icons-wrap .icons-item {
+  padding: 26px 15px;
+}
+
+.icons-box.style-2.type-2
+  .icons-item
+  .item-box
+  .icons-box-title:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.icons-box.style-2.type-2 .icons-item .item-box .icons-box-title a {
+  border-bottom: 1px solid transparent;
+}
+
+.icons-box.style-2.type-2 .icons-item .item-box .icons-box-title a:hover {
+  border-bottom-color: inherit;
+}
+
+.icons-box.style-1.type-2 .icons-item {
+  position: relative;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.icons-box.style-1.type-2 .icons-box-title a {
+  border-bottom: 1px solid transparent;
+}
+
+.icons-box.style-1.type-2 .icons-item .item-box > i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+}

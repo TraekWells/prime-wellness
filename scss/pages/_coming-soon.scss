@@ -1,0 +1,21 @@
+/* Coming soon */
+
+.coming-soon {
+  text-align: center;
+  padding: 130px 0 280px;
+}
+
+.coming-soon .title {
+  font-weight: bold;
+  color: #b01933;
+  line-height: 60px;
+  font-size: 62px;
+}
+
+.coming-soon .title:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.coming-soon p {
+  color: #333;
+}

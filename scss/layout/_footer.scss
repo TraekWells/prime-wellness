@@ -1,0 +1,79 @@
+/* -----------------------------------
+
+  13. Footer
+
+------------------------------------- */
+
+#footer[class*="footer"] {
+  color: #fff;
+  background: #333;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+[class*="footer"] .widget {
+  padding: 0;
+  background: transparent;
+}
+
+[class*="footer"] .widget:not(:last-child) {
+  margin-bottom: 0;
+}
+
+[class*="footer"] .main-footer {
+  padding: 80px 0;
+}
+
+.footer-widgets {
+  padding: 60px 0 40px;
+}
+
+[class*="footer"] .widget .widget-title {
+  color: #fff;
+}
+
+[class*="footer"] .widget p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #999;
+}
+
+[class*="footer"] .widget p:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+[class*="footer"] .copyright {
+  padding: 28px 15px;
+  text-align: center;
+  color: #999;
+  background: #3e3e3e;
+}
+
+[class*="footer"] .copyright p {
+  font-size: 15px;
+}
+
+[class*="footer"] .copyright p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+[class*="footer"] .copyright a {
+  color: #fff;
+}
+
+[class*="footer"] .copyright p > a:hover {
+  text-decoration: underline;
+}
+
+[class*="footer"] a.link-text:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+/* ----------------- Footer style-2 ---------------- */
+
+.footer.style-2 .main-footer .widget .logo:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+/* ----------------- Footer style-2 ---------------- */

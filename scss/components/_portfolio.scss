@@ -1,0 +1,143 @@
+/* -----------------------------------
+
+  10. Portfolio
+
+------------------------------------- */
+
+.project,
+.project-image {
+  position: relative;
+  z-index: 1;
+}
+
+.project-image {
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.project-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: url(../images/icon_zoomin.png) 24 24, auto;
+}
+
+.project:hover .project-link,
+.portfolio-holder.style-2 .project:hover .project-link {
+  background: rgba(217, 31, 63, 0.7);
+}
+
+.project:hover .project-image img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.project-description {
+  text-align: center;
+  padding: 26px 10px 0;
+}
+
+.project-image .project-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 26px 13px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  -webkit-transition: opacity 0.45s ease;
+  -o-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-title:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.project-title a,
+.project-cats {
+  border-bottom: 1px solid transparent;
+}
+
+.project-cats {
+  display: inline-block;
+  line-height: 18px;
+}
+
+.project-title a:hover,
+.project-cats:hover {
+  color: #b01933;
+}
+
+.project-cats {
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.project:hover .project-image .project-description {
+  opacity: 1;
+  visibility: visible;
+}
+
+.project-image .project-description .project-title a,
+.project-image .project-description .project-cats {
+  color: #fff;
+}
+
+.portfolio-holder.style-2 .project {
+  position: relative;
+}
+
+.portfolio-holder.style-2 .project .project-link {
+  background: -webkit-linear-gradient(
+    rgba(143, 143, 140, 0.5) 0%,
+    rgba(56, 56, 56, 0.5) 100%
+  );
+  background: -o-linear-gradient(
+    rgba(143, 143, 140, 0.5) 0%,
+    rgba(56, 56, 56, 0.5) 100%
+  );
+  background: linear-gradient(
+    rgba(143, 143, 140, 0.5) 0%,
+    rgba(56, 56, 56, 0.5) 100%
+  );
+}
+
+.portfolio-holder.style-2 .project .project-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding-bottom: 26px;
+}
+
+.portfolio-holder.style-2 .project .project-description .project-title a {
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.portfolio-holder.style-2 .project .project-description .project-title a:hover {
+  border-bottom-color: inherit;
+}
+
+.portfolio-holder.style-2 .project .project-description .project-cats {
+  color: #c9c9c9;
+}
+
+.portfolio-holder.style-2 .project .project-description .project-cats:hover {
+  color: #fff;
+}

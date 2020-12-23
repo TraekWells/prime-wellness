@@ -1,0 +1,230 @@
+/* -----------------------------------
+
+  5. Header
+
+------------------------------------- */
+
+.header.fixed-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.header.sticky-header.clone-fixed {
+  position: fixed;
+  transition: 0.5s top cubic-bezier(0.3, 0.73, 0.3, 0.74);
+  opacity: 0;
+}
+
+.header.fixed-header.sticky-header.clone-fixed {
+  background: #333;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  background: transparent;
+  background: #333;
+}
+
+.header .top-header {
+  position: relative;
+  padding: 30px 60px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header:not(.style-2):not(.style-3) .logo {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  display: inline-block;
+}
+
+.header-btns {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  margin: -15px -15px;
+}
+
+.header-btns > .head-btn {
+  padding: 15px 15px;
+}
+
+/* Header 2 */
+
+.header.style-2,
+.header.style-2.sticky-header.clone-fixed {
+  background: #fff;
+}
+
+.header.style-2 .logo {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: block;
+  min-width: 150px;
+}
+
+.header.style-2 .main-navigation > ul > li > a,
+.header.style-2 button.search-button,
+.header.style-2 .shop-cart .sc-cart-btn {
+  color: #333;
+}
+
+/* Header 3 */
+
+.header.style-3.sticky-header.clone-fixed .top-header {
+  display: none;
+}
+
+.header.style-3 {
+  position: relative;
+  background: #fff;
+}
+
+.header.style-3.wide .top-header {
+  padding: 26px 60px;
+}
+
+.header.style-3 .top-header {
+  padding: 26px 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.style-3 .top-header .top-head-col > *:not(:last-child),
+.header.style-3 .top-header .header-btns > .head-btn:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.header.style-3 .top-header .header-btns {
+  display: block;
+  margin: 0;
+  text-align: right;
+}
+
+.header.style-3 .top-header .header-btns > .head-btn {
+  padding: 0;
+}
+
+.header-actions > a {
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.header-actions > a:not(:last-child) {
+  border-right: 1px solid #999;
+  padding-right: 8px;
+  margin-right: 7px;
+}
+
+.header-actions > a:hover {
+  color: #333;
+}
+
+.header.style-3 .menu-holder {
+  background: #565656;
+  text-align: center;
+  padding-left: 0;
+  padding: 15px 0;
+}
+
+/* Header 4 */
+
+.header.style-4.sticky-header.clone-fixed .top-header {
+  display: none;
+}
+
+.header.style-4.sticky-header.clone-fixed .menu-wrap {
+  padding-left: 0;
+}
+
+.header.style-4 {
+  position: relative;
+  background: #fff;
+}
+
+.header.style-4 .top-header {
+  border-bottom: 1px solid #e0e0e0;
+  display: block;
+  padding: 0;
+}
+
+.header.style-4 .top-header .top-head-menu {
+  padding: 8px 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header.style-4 .top-header .container {
+  position: relative;
+}
+
+.header.style-4 .top-header .logo {
+  left: 15px;
+}
+
+.header.style-4 .menu-holder {
+  padding: 26px 0;
+}
+
+.header.style-4 .menu-holder .menu-wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header.style-4 .main-navigation > ul {
+  margin: 0 -20px;
+}
+
+.header.style-4 .main-navigation > ul > li > a {
+  color: #333;
+}
+
+.header.style-4 button.search-button {
+  color: #333;
+}
+
+.header.style-4 .top-header .top-head-menu,
+.header.style-4 .menu-wrap {
+  padding-left: 230px;
+}
+
+.header.style-4.wide .top-header .logo {
+  left: 60px;
+}
+
+.header.style-4.wide .container {
+  max-width: 100%;
+  padding: 0 60px;
+}

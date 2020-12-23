@@ -1,0 +1,222 @@
+/*----------- Testimonials --------------*/
+
+.testimonial:not(.owl-carousel):not(:last-child) {
+  margin-bottom: 39px;
+}
+
+.testimonial-holder.owl-carousel .owl-stage {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial-holder.owl-carousel .owl-item {
+  float: none;
+}
+
+.testimonial blockquote {
+  color: #333;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 60px 60px 60px;
+}
+
+.testimonial-holder .testimonial.bg1 blockquote {
+  background: #f9f9f9;
+}
+
+.testimonial-holder .testimonial.bg2 blockquote {
+  background: #f1f1f1;
+}
+
+.testimonial-holder .testimonial.bg3 blockquote {
+  background: #e4e4e4;
+}
+
+.testimonial,
+.testimonial blockquote {
+  height: 100%;
+}
+
+.testimonial .author {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.testimonial h6:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.testimonial .author-box {
+  overflow: hidden;
+  line-height: 22px;
+  text-align: left;
+}
+
+.testimonial .avatar img {
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.testimonial .author-name {
+  font-size: 16px;
+}
+
+.testimonial .author-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial .author-box .author-icon {
+  margin-right: 15px;
+}
+
+.testimonial .author-box .author-icon {
+  width: 52px;
+  height: 52px;
+  line-height: 60px;
+  border: 1px solid #e883ae;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.testimonial .author-position,
+.testimonial .author-about,
+.testimonial .author-company {
+  display: block;
+  font-size: 15px;
+  color: #777;
+  letter-spacing: 0.5px;
+}
+
+.testimonial .member-photo {
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+}
+
+.testimonial .member-photo img {
+  border-radius: 50%;
+}
+
+.testimonial .member-photo:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.testimonial .author-name:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+.testimonial .author-position:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+.testimonial .testimonial-holder {
+  margin-bottom: 20px;
+}
+
+.testimonial-holder.style-2 .testimonial {
+  text-align: center;
+}
+
+.testimonial-holder.style-2 .testimonial:not(.blockquote-holder) blockquote {
+  padding: 90px 100px 40px;
+}
+
+.testimonial-holder.style-2 .testimonial blockquote:before {
+  content: "‘‘";
+  font-family: "Lora";
+  font-style: italic;
+  text-align: center;
+  font-size: 160px;
+  line-height: 130px;
+  display: block;
+  color: #b01933;
+  letter-spacing: -7px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.testimonial-holder.style-2 .testimonial blockquote p,
+.testimonial-holder.style-3 .testimonial blockquote p {
+  font-size: 23px;
+  line-height: 42px;
+}
+
+.testimonial-holder.style-2 .testimonial .author-box {
+  display: inline-block;
+  text-align: center;
+}
+
+.testimonial-holder.var2 .testimonial blockquote:before {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.testimonial-holder.var2 .testimonial blockquote,
+.testimonial-holder.var2 .testimonial .author {
+  color: #fff;
+}
+
+.testimonial-holder.var2 .testimonial .author-position {
+  color: #c9c9c9;
+}
+
+.testimonial-holder.style-3 .testimonial {
+  text-align: center;
+}
+
+.testimonial-holder.style-3 .testimonial .author-box {
+  display: inline-block;
+  text-align: center;
+}
+
+.testimonial-holder.style-3 .testimonial .author-box:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+.half-bg-col .testimonial-holder.style-3 .testimonial blockquote {
+  padding: 0 40px;
+}
+
+.testimonial-holder.style-3 .testimonial blockquote {
+  padding: 0 265px 0;
+}
+
+.testimonial-holder.list-style .testimonial .member-photo:not(:last-child) {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.testimonial-holder.list-style .testimonial blockquote {
+  padding: 0;
+}
+
+.testimonial-holder.list-style .testimonial blockquote:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.testimonial-holder.list-style .testimonial .member-photo {
+  max-width: 84px;
+}
+
+.testimonial-holder.list-style .testimonial .author-position {
+  color: #999;
+}
