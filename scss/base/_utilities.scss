@@ -44,6 +44,10 @@
   visibility: hidden;
 }
 
+.mb-3 {
+  margin-bottom: 30px;
+}
+
 img[class*="align"] {
   margin-bottom: 15px;
   max-width: 50%;
@@ -395,53 +399,6 @@ img.alignright {
 
 .cookies .btn {
   margin: 0 2px;
-}
-
-/* Quantity */
-
-.quantity {
-  position: relative;
-  display: inline-block;
-  border-radius: 2px;
-  overflow: hidden;
-  border: 1px solid #e0e0e0;
-}
-
-.quantity button {
-  position: absolute;
-  text-align: center;
-  line-height: 10px;
-  width: 40px;
-  font-size: 14px;
-  background: transparent;
-  color: #999;
-  border: 1px solid #e0e0e0;
-}
-
-.quantity .qty-minus,
-.quantity .qty-plus {
-  right: 0;
-  height: 50%;
-  border-right: none;
-}
-
-.quantity .qty-minus {
-  bottom: 0;
-  border-bottom: none;
-}
-
-.quantity .qty-plus {
-  border-top: none;
-  top: 0;
-  border-bottom: none;
-}
-
-.quantity input[type="text"] {
-  width: 130px;
-  padding: 0 40px 0 20px;
-  border: none;
-  height: 56px;
-  font-size: 16px;
 }
 
 /*----------- Counters --------------*/

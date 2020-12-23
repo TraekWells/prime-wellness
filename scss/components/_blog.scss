@@ -17,6 +17,10 @@
 
 /*----------- Entries --------------*/
 
+.entry {
+  margin: 20px 0;
+}
+
 .entry-box:not(.entry-small) .entry .thumbnail-attachment:not(:last-child) {
   margin-bottom: 28px;
 }
