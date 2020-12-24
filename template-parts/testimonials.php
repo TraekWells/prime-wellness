@@ -20,8 +20,7 @@
             <div class="author-box">
               
               <div class="author-info">
-                <div class="author">Ivana Wong</div>
-                <a href="#" class="author-position">Teacher</a>
+                <div class="author">Anna S.</div>
               </div>
 
             </div>
@@ -44,8 +43,7 @@
             <div class="author-box">
               
               <div class="author-info">
-                <div class="author">John McCoist</div>
-                <a href="#" class="author-position">Musician</a>
+                <div class="author">Devon R.</div>
               </div>
 
             </div>
@@ -68,8 +66,7 @@
             <div class="author-box">
               
               <div class="author-info">
-                <div class="author">Marta Healy</div>
-                <a href="#" class="author-position">Painter</a>
+                <div class="author">Jenna M.</div>
               </div>
 
             </div>

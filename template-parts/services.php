@@ -15,13 +15,13 @@
               
           <!-- - - - - - - - - - - - - - Entry attachment - - - - - - - - - - - - - - - - -->
           <div class="thumbnail-attachment">
-            <a href="#"><img src="https://via.placeholder.com/430x292" alt=""></a>
+            <a href="<?php echo site_url('/services/wellness-coaching'); ?>"><img src="https://via.placeholder.com/430x292" alt=""></a>
           </div>
           
           <!-- - - - - - - - - - - - - - Entry body - - - - - - - - - - - - - - - - -->
           <div class="entry-body">
                 
-            <h3 class="entry-title"><a href="#">Wellness Coaching</a></h3>
+            <h3 class="entry-title"><a href="<?php echo site_url('/services/wellness-coaching'); ?>">Wellness Coaching</a></h3>
             <p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget.</p>
             <a href="<?php echo site_url('/services/wellness-coaching'); ?>">Learn More</a>
                 
@@ -38,13 +38,13 @@
               
           <!-- - - - - - - - - - - - - - Entry attachment - - - - - - - - - - - - - - - - -->
           <div class="thumbnail-attachment">
-            <a href="#"><img src="https://via.placeholder.com/430x292" alt=""></a>
+            <a href="<?php echo site_url('/services/public-speaking-engagements'); ?>"><img src="https://via.placeholder.com/430x292" alt=""></a>
           </div>
           
           <!-- - - - - - - - - - - - - - Entry body - - - - - - - - - - - - - - - - -->
           <div class="entry-body">
                 
-            <h3 class="entry-title"><a href="#">Public Speaking Engagements</a></h3>
+            <h3 class="entry-title"><a href="<?php echo site_url('/services/public-speaking-engagements'); ?>">Public Speaking Engagements</a></h3>
             <p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget.</p>
             <a href="<?php echo site_url('/services/public-speaking-engagements'); ?>">Learn More</a>
                 
