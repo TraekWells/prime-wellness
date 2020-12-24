@@ -30,7 +30,7 @@
 .icons-box.style-1 .icons-item .item-box > i {
   margin-bottom: 26px;
   font-size: 60px;
-  color: #b01933;
+  color: $color-primary-700;
   display: block;
 }
 
@@ -211,7 +211,7 @@
 }
 
 .info-boxes .info-box .box-title a:hover {
-  color: #b01933;
+  color: $color-primary-700;
 }
 
 .info-boxes.style-2 .info-box {

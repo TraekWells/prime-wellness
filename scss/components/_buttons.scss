@@ -60,12 +60,12 @@
 }
 
 [class*="btn"]:not(.btn-small).btn-style-2 {
-  border-color: #b01933;
-  color: #630e1d;
+  border-color: $color-primary-700;
+  color: $color-primary-900;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-2:hover {
-  border-color: #630e1d;
+  border-color: $color-primary-900;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-3 {
@@ -93,18 +93,18 @@
 }
 
 [class*="btn"]:not(.btn-small).btn-style-5 {
-  background: #b01933;
+  background: $color-primary-700;
   color: #fff;
-  border-color: #b01933;
+  border-color: $color-primary-700;
 }
 
 [class*="btn"].btn-style-5.btn-small {
-  color: #b01933;
+  color: $color-primary-700;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-5:hover {
-  background: #630e1d;
-  border-color: #630e1d;
+  background: $color-primary-900;
+  border-color: $color-primary-900;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-6 {
@@ -137,31 +137,31 @@
 }
 
 [class*="btn"]:not(.btn-small).btn-style-8 {
-  color: #ef2245;
-  border-color: #b01933;
+  color: $color-primary-700;
+  border-color: $color-primary-700;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-8:hover {
-  border-color: #ef2245;
+  border-color: $color-primary-700;
 }
 
 [class*="btn"].btn-style-8.btn-small {
-  color: #ef2245;
+  color: $color-primary-700;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-9 {
   color: #fff;
-  background: #630e1d;
-  border-color: #630e1d;
+  background: $color-primary-900;
+  border-color: $color-primary-900;
 }
 
 [class*="btn"]:not(.btn-small).btn-style-9:hover {
-  border-color: #891328;
-  background: #891328;
+  border-color: $color-primary-900;
+  background: $color-primary-900;
 }
 
 [class*="btn"].btn-style-9.btn-small {
-  color: #630e1d;
+  color: $color-primary-900;
 }
 
 [class*="btn"] i {
