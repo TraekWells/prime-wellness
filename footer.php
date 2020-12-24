@@ -21,7 +21,7 @@
         
                 <p>Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. </p>
 
-                <a href="#" class="btn btn-style-8">Contact Me Today</a>
+                <a href="<?php echo site_url('/contact-me'); ?>" class="btn btn-style-7">Contact Me Today</a>
         
               </div>
         

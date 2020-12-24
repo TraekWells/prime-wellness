@@ -1,66 +1,23 @@
 <?php get_header(); ?>
 
-<!-- - - - - - - - - - - - - - Revolution Slider - - - - - - - - - - - - - - - - -->
+<div class="intro intro--home page-section" style='background-image: url("<?php echo the_post_thumbnail_url(); ?>")'>
+  
+  <div class="container wide">
+    
+    <div class="title-holder align-center">
+      
+      <p class="pre-title color2">Welcome</p>
+      <h1>Prime Wellness</h1>
 
-<div class="rev-slider-wrapper full-scr">
+      <p>Wellness Coaching & Speaking Engagements.</p>
 
-<div id="rev-slider" class="rev-slider tp-simpleresponsive"  data-version="5.0">
+      <a href="<?php echo site_url('/contact-me'); ?>" class="btn btn-big btn-style-5">Get Started Today</a>
 
-  <ul>
+    </div>
 
-    <li data-transition="fade">
-
-      <img src="<?php echo the_post_thumbnail_url(); ?>" class="rev-slidebg" alt="">
-
-      <!-- - - - - - - - - - - - - - Layer 1 - - - - - - - - - - - - - - - - -->
-
-      <div class="tp-caption tp-resizeme scaption-white-large"
-        data-x="['center','center','center','center']" data-hoffset="0"
-        data-y="['middle','middle','middle','middle']" data-voffset="-50"
-        data-whitespace="nowrap"
-        data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-        data-responsive_offset="on"
-        data-elementdelay="0.05" >Welcome to Prime Wellness
-      </div>
-
-      <!-- - - - - - - - - - - - - - End of Layer 1 - - - - - - - - - - - - - - - - -->
-
-      <!-- - - - - - - - - - - - - - Layer 2 - - - - - - - - - - - - - - - - -->
-
-      <div class="tp-caption tp-resizeme scaption-white"
-        data-x="['center','center','center','center']" data-hoffset="0"
-        data-y="['middle','middle','middle','middle']" data-voffset="30"
-        data-whitespace="nowrap"
-        data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-        data-responsive_offset="on"
-        data-elementdelay="0.05" ><p>Wellness Coaching & Speaking Engagements.</p>
-      </div>
-
-      <!-- - - - - - - - - - - - - - End of Layer 2 - - - - - - - - - - - - - - - - -->
-
-      <!-- - - - - - - - - - - - - - Layer 3 - - - - - - - - - - - - - - - - -->
-
-      <div class="tp-caption tp-resizeme scaption-white"
-        data-x="['center','center','center','center']" data-hoffset="0"
-        data-y="['middle','middle','middle','middle']" data-voffset="120"
-        data-whitespace="nowrap"
-        data-frames='[{"delay":750,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-        data-responsive_offset="on"
-        data-elementdelay="0.05" >
-        <a href="#" class="btn btn-big btn-style-5">Contact Me</a>
-      </div>
-
-      <!-- - - - - - - - - - - - - - End of Layer 3 - - - - - - - - - - - - - - - - -->
-
-    </li>
-
-  </ul>
+  </div>
 
 </div>
-
-</div>
-
-<!-- - - - - - - - - - - - - - End of Slider - - - - - - - - - - - - - - - - -->
 
 <!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
 
@@ -81,9 +38,9 @@
       </div>
       <div class="col-md-6">
         
-        <h2 class="title2">About Me</h2>
+        <h2 class="title2">About Prime Wellness</h2>
         <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
-        <a href="<?php echo site_url('/about-me'); ?>">Learn More</a>
+        <a href="<?php echo site_url('/services'); ?>">Learn More</a>
 
       </div>
     </div>

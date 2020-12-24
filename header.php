@@ -88,7 +88,7 @@
         
         <!-- button -->
         <div class="head-btn">
-          <a href="#" class="btn btn-big btn-style-7">Contact Me Today</span></a>
+          <a href="<?php echo site_url('/contact-me'); ?>" class="btn btn-style-8">Contact Me Today</span></a>
         </div>
 
       </div>

@@ -4,14 +4,14 @@
 
 <div id="content">
 
-<div class="page-section" style='background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.9)), url("<?php echo the_post_thumbnail_url(); ?>")'>
+<div class="intro page-section">
   
   <div class="container wide">
     
     <div class="title-holder align-center">
       
       <p class="pre-title color2">About</p>
-      <h2><?php the_title(); ?></h2>
+      <h1><?php the_title(); ?></h1>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>
 
@@ -34,7 +34,7 @@
       </div>
       
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
           
           <div class="team-member">
       
@@ -60,8 +60,8 @@
           </div>          
       
         </div>  
-        <div class="col-md-3">
-        <img src="https://via.placeholder.com/430x448" alt="">
+        <div class="col-md-4 offset-md-1">
+        <img src="<?php echo get_theme_file_uri( '/img/about-me-image.jpg' );  ?>" alt="">
         </div>     
       </div>
 

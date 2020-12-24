@@ -4,14 +4,14 @@
 
 <div id="content">
 
-<div class="page-section" style='background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.9)), url("<?php echo the_post_thumbnail_url(); ?>")'>
+<div class="intro page-section">
   
   <div class="container wide">
     
     <div class="title-holder align-center">
       
       <p class="pre-title color2">Get In Touch</p>
-      <h2><?php the_title(); ?></h2>
+      <h1><?php the_title(); ?></h1>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>
 

@@ -1,26 +1,17 @@
-<?php 
-
-/**
- *  
- * Template Name: Service Page Template
- * 
-*/
-
-get_header();
-?>
+<?php get_header(); ?>
 
 <!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
 
 <div id="content">
 
-<div class="page-section" style='background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.9)), url("<?php echo the_post_thumbnail_url(); ?>")'>
+<div class="intro page-section">
   
   <div class="container wide">
     
     <div class="title-holder align-center">
       
       <p class="pre-title color2">Service</p>
-      <h2><?php the_title(); ?></h2>
+      <h1><?php the_title(); ?></h1>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>
 
@@ -47,7 +38,7 @@ get_header();
         
         <h2 class="title2">About Me</h2>
         <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
-        <a href="#">Learn More</a>
+        <a href="<?php echo site_url('/about-me'); ?>">Learn More</a>
 
       </div>
     </div>
@@ -65,7 +56,7 @@ get_header();
     <div class="align-center">
       <!-- <div class="pre-title">Ready to help?</div> -->
       <h2 class="call-title">Get a Wellness Coach!</h2>
-      <a href="#" class="btn btn-style-7 btn-big">Get Started Today</a>
+      <a href="<?php echo site_url('/contact-me'); ?>" class="btn btn-style-7 btn-big">Get Started Today</a>
     </div>
 
   </div>
