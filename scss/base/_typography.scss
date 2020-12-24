@@ -20,6 +20,7 @@ h6 {
 h1 {
   font-size: 60px;
   line-height: 70px;
+  color: $color-primary-900;
 }
 
 h2 {
@@ -158,7 +159,7 @@ h5.title:not(:last-child) {
 }
 
 .color2 {
-  color: $color-primary-700;
+  color: $color-primary-500;
 }
 
 .pre-title:not(:last-child) {

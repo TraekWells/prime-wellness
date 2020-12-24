@@ -25,7 +25,7 @@
 }
 
 .main-navigation > ul > li > a {
-  color: #fff;
+  color: $color-primary-900;
   text-transform: uppercase;
   display: block;
   position: relative;
@@ -201,8 +201,12 @@
 }
 
 .responsive-nav-button:before {
-  font-family: "linearicons";
-  content: "\e92b";
+  content: "Menu";
+  color: $color-primary-700;
+  font-size: 15px;
+  border: 2px solid $color-primary-700;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 #wrapper #advanced-menu-hide {

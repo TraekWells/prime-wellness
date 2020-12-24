@@ -50,7 +50,7 @@
   }
 
   .header .top-header {
-    padding: 30px 15px;
+    padding: 20px 15px;
   }
 }
 
@@ -234,7 +234,7 @@
 
   .mobile-advanced > ul > li.current > a,
   .mobile-advanced > ul > li:hover > a {
-    background-color: #b01933;
+    background-color: $color-primary-900;
   }
 
   .mobile-advanced .sub-menu-wrap.mega-menu .col:not(:first-child) .mega-title {
@@ -288,12 +288,13 @@
   }
 
   #advanced-menu-hide:after {
-    content: "\e92a";
-    vertical-align: middle;
+    content: "Close";
+    color: $color-primary-700;
+    border: 2px solid $color-primary-700;
+    border-radius: 3px;
+    padding: 10px;
     text-align: center;
-    font-size: 30px;
-    font-family: "linearicons";
-    line-height: 38px;
+    font-size: 15px;
   }
 
   #advanced-menu-hide:hover {

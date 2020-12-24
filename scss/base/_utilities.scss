@@ -52,6 +52,14 @@
   color: #ffffff;
 }
 
+[class*="carousel-type"] .owl-dots .owl-dot {
+  background-color: $color-primary-100 !important;
+}
+
+[class*="carousel-type"] .owl-dots .owl-dot.active {
+  background-color: $color-primary-700 !important;
+}
+
 img[class*="align"] {
   margin-bottom: 15px;
   max-width: 50%;

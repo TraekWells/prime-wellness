@@ -6,7 +6,8 @@
 
 #footer[class*="footer"] {
   color: #fff;
-  background: #333;
+  // background: #333;
+  background-color: $color-primary-900;
   flex-shrink: 0;
   z-index: 2;
 }
@@ -35,7 +36,7 @@
 [class*="footer"] .widget p {
   font-size: 16px;
   line-height: 26px;
-  color: #999;
+  color: #ffffff;
 }
 
 [class*="footer"] .widget p:not(:last-child) {
@@ -45,8 +46,7 @@
 [class*="footer"] .copyright {
   padding: 28px 15px;
   text-align: center;
-  color: #999;
-  background: #3e3e3e;
+  color: #ffffff;
 }
 
 [class*="footer"] .copyright p {
