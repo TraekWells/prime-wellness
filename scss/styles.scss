@@ -1,34 +1,21 @@
 @import "vendors/bootstrap";
-@import "vendors/fontello";
 @import "vendors/owl-carousel";
-@import "vendors/fancybox";
 
 @import "abstracts/variables";
 @import "base/reset";
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/accordions";
 @import "components/alerts";
 @import "components/blog";
 @import "components/buttons";
-@import "components/dividers";
 @import "components/forms";
 @import "components/header";
 @import "components/icon-boxes";
-@import "components/portfolio";
-@import "components/pricing-table";
 @import "components/slider";
-@import "components/social-feeds";
-@import "components/tables";
 @import "components/testimonials";
-@import "components/video";
 
 @import "layout/footer";
 @import "layout/navigation";
-@import "layout/sidebar";
-
-@import "pages/404";
-@import "pages/coming-soon";
 
 @import "layout/responsive";
