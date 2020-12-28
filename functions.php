@@ -4,7 +4,6 @@ function file_setup() {
   wp_enqueue_script('modernizer', get_theme_file_uri('js/libs/jquery.modernizr.js'), NULL, '1.0', true);
   wp_enqueue_script('jquery', get_theme_file_uri('js/libs/jquery-2.2.4.min.js'), NULL, '1.0', true);
   wp_enqueue_script('jquery-ui', get_theme_file_uri('js/libs/jquery-ui.min.js'), NULL, '1.0', true);
-  wp_enqueue_script('local-scroll', get_theme_file_uri('plugins/jquery.localScroll.min.js'), NULL, '1.0', true);
   wp_enqueue_script('scroll-to', get_theme_file_uri('plugins/jquery.scrollTo.min.js'), NULL, '1.0', true);
   wp_enqueue_script('fancy-box', get_theme_file_uri('plugins/fancybox/jquery.fancybox.js'), NULL, '1.0', true);
   wp_enqueue_script('custom-select', get_theme_file_uri('plugins/mad.customselect.js'), NULL, '1.0', true);

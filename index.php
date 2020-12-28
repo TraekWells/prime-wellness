@@ -10,7 +10,6 @@
     
     <div class="title-holder align-center">
       
-      <p class="pre-title color2">Blog</p>
       <h1>Blog</h1>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>

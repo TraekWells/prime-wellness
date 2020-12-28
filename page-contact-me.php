@@ -9,11 +9,10 @@
   <div class="container wide">
     
     <div class="title-holder align-center">
-      
-      <p class="pre-title color2">Get In Touch</p>
+    
       <h1><?php the_title(); ?></h1>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>
+      <p>Your Journey Commences Now!</p>
 
     </div>
 
@@ -31,7 +30,7 @@
         <h2>I'd Love To Hear From You!</h2>
         <p>Feel free to send us any questions you may have. I am happy to answer them.</p>
 
-        <form id="contact-form" class="contact-form style-2">
+        <form id="contact-form" class="contact-form style-2" action="mail.php">
 
           <div class="contact-item">
             

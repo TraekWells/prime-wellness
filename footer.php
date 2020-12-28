@@ -19,7 +19,7 @@
                 
                 <h5 class="widget-title">About Me</h5>
         
-                <p>Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. </p>
+                <p>Chet's passion is in the reminding of others that there is a Genius within us all, a Genius that can accomplish anything, and to remind us all to never forget.</p>
 
                 <a href="<?php echo site_url('/contact-me'); ?>" class="btn btn-style-7">Contact Me Today</a>
         
@@ -38,7 +38,6 @@
                   <li><a href="<?php echo site_url( '/services/wellness-coaching' ); ?>">Wellness Coaching</a></li>
                   <li><a href="<?php echo site_url( '/services/public-speaking-engagements' ); ?>">Public Speaking Engagements</a></li>
                   <li><a href="<?php echo site_url( '/about-me' ); ?>">About Me</a></li>
-                  <li><a href="<?php echo site_url( '/blog' ); ?>">Blog</a></li>
                   <li><a href="<?php echo site_url( '/contact-me' ); ?>">Contact Me</a></li>
                 
                 </ul>

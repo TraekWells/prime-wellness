@@ -10,10 +10,9 @@
     
     <div class="title-holder align-center">
       
-      <p class="pre-title color2">About</p>
       <h1><?php the_title(); ?></h1>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>
+      <p>Meet the founder of Prime Wellness.</p>
 
     </div>
 
@@ -44,14 +43,11 @@
 
               <p>Chet has been serving in the Army National Guard since 2005. He has been deployed to Iraq and Kuwait as Wheeled Vehicle Mechanic and Electronic Warfare Specialist. He also holds the title of Certified Resiliency Instructor, where his love for teaching comes to life. Topics of expertise include: Stress Management, Conflict Resolution, Physical Fitness, Problem Solving, Goal Setting, Gratitude Recognition, Action-Thought-Feelings Alignment, Energy Management, and many more.</p>
 
-              <p>Chet's passion is in the reminding of others that there is a Genius within us all, a Genius that can accomplish anything, and to remind us all to never forget.</p>
-
               <div class="text-size-medium content-element2">Connect With Chet:</div>
               <ul class="social-icons share var2">
     
                 <li><a href="#" class="sh-facebook"><i class="icon-facebook"></i></a></li>
                 <li><a href="#" class="sh-twitter"><i class="icon-twitter"></i></a></li>
-                <li><a href="#" class="sh-mail"><i class="icon-mail"></i></a></li>
                 
               </ul>
             
@@ -61,7 +57,7 @@
       
         </div>  
         <div class="col-md-4 offset-md-1">
-        <img src="<?php echo get_theme_file_uri( '/img/about-me-image.jpg' );  ?>" alt="">
+        <img src="<?php echo get_theme_file_uri( '/img/about-me-image.jpg' );  ?>" alt="Picture of Chet Merino who is the founder of Prime Wellness">
         </div>     
       </div>
 

@@ -70,7 +70,6 @@
                 </li>
                 <li><a href="<?php echo site_url( '/about-me' ); ?>">About</a></li>
                 <li><a href="<?php echo site_url( '/contact-me' ); ?>">Contact Me</a></li>
-                <li><a href="<?php echo site_url( '/blog' ); ?>">Blog</a></li>
               </ul>
             </nav>
 

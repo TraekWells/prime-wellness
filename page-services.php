@@ -10,10 +10,9 @@
     
     <div class="title-holder align-center">
       
-      <p class="pre-title color2">Service</p>
       <h1><?php the_title(); ?></h1>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at expedita accusantium qui fuga eos!</p>
+      <p>Purpose. Ritual. Intuition. Meaning. Elevation.</p>
 
     </div>
 
@@ -27,17 +26,10 @@
   <div class="container wide">
     
     <div class="row row-wide align-items-center">
-      <div class="col-md-6">
-        
-        <div class="video-holder">
-          <img src="https://via.placeholder.com/660x392" alt="">
-        </div>
-
-      </div>
-      <div class="col-md-6">
+      <div class="col-md-6 offset-md-3" style="text-align: center;">
         
         <h2 class="title2">About Me</h2>
-        <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+        <p>Chet's passion is in the reminding of others that there is a Genius within us all, a Genius that can accomplish anything, and to remind us all to never forget.</p>
         <a href="<?php echo site_url('/about-me'); ?>">Learn More</a>
 
       </div>
@@ -49,7 +41,7 @@
 
 <?php get_template_part('./template-parts/services'); ?>
 
-<div class="call-out parallax-section" data-bg="https://via.placeholder.com/1920x800">
+<div class="call-out parallax-section" data-bg="<?php echo get_theme_file_uri( '/img/wellness-coach-cta-image.jpg' );  ?>">
           
   <div class="container wide">
     
